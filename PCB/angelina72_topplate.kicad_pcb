@@ -2,10 +2,10 @@
 
   (general
     (thickness 1.6)
-    (drawings 79)
+    (drawings 114)
     (tracks 0)
     (zones 0)
-    (modules 45)
+    (modules 50)
     (nets 1)
   )
 
@@ -59,8 +59,8 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
-    (aux_axis_origin 115.184651 113.04219)
-    (grid_origin 115.184681 113.042186)
+    (aux_axis_origin 113.221474 112.959076)
+    (grid_origin 113.221474 112.959076)
     (visible_elements FFFFFFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
@@ -111,12 +111,126 @@
     (uvia_drill 0.1)
   )
 
-  (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB44A11)
-    (at 86.60965 103.51719)
-    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
+  (module angelina72:M2_Hole_NoPad (layer F.Cu) (tedit 5DB3F0EF) (tstamp 5DB50421)
+    (at 193.469553 85.575936)
+    (descr "Mounting Hole 2.2mm, no annular, M2")
+    (tags "mounting hole 2.2mm no annular m2")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -3.2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_mod (at 0 -0.5) (layer F.Fab) hide
+    (fp_text value M2_Hole_NoPad (at 0 3.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.25 0) (layer F.CrtYd) (width 0.05))
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
+  )
+
+  (module angelina72:M2_Hole_NoPad (layer F.Cu) (tedit 5DB3F0EF) (tstamp 5DB45EBE)
+    (at 207.280803 106.530936)
+    (descr "Mounting Hole 2.2mm, no annular, M2")
+    (tags "mounting hole 2.2mm no annular m2")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -3.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value M2_Hole_NoPad (at 0 3.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.25 0) (layer F.CrtYd) (width 0.05))
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
+  )
+
+  (module angelina72:Credit (layer F.Cu) (tedit 5DB453D1) (tstamp 5DB4A672)
+    (at 187.754599 74.859076 90)
+    (fp_text reference REF** (at 0 0.5 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Credit (at 0 -0.5 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user "Angelina72 v2.0 PCB Designed by clomie" (at 0 0 90) (layer F.Mask)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user "Angelina72 v2.0 PCB Designed by clomie" (at 0 0 90) (layer B.Mask)
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+  )
+
+  (module angelina72:MouseBite (layer F.Cu) (tedit 5DB443AB) (tstamp 5DB50A28)
+    (at 189.421474 98.862201 90)
+    (fp_text reference REF** (at 0 0.5 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MouseBite (at 0 -0.5 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at -1 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 1 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module angelina72:MouseBite (layer F.Cu) (tedit 5DB443AB) (tstamp 5DB50A19)
+    (at 189.421474 48.474701 90)
+    (fp_text reference REF** (at 0 0.5 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MouseBite (at 0 -0.5 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 1 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at -1 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module angelina72:M2_Hole_NoPad (layer F.Cu) (tedit 5DB3F0EF) (tstamp 5DB43AAD)
+    (at 88.742854 118.121611 10)
+    (descr "Mounting Hole 2.2mm, no annular, M2")
+    (tags "mounting hole 2.2mm no annular m2")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -3.2 10) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value M2_Hole_NoPad (at 0 3.2 10) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.25 0) (layer F.CrtYd) (width 0.05))
+    (fp_text user %R (at 0.3 0 10) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 np_thru_hole circle (at 0 0 10) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
+  )
+
+  (module angelina72:M2_Hole_NoPad (layer F.Cu) (tedit 5DB3F0EF) (tstamp 5DB420AB)
+    (at 75.736905 60.816028 10)
+    (descr "Mounting Hole 2.2mm, no annular, M2")
+    (tags "mounting hole 2.2mm no annular m2")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -3.2 10) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value M2_Hole_NoPad (at 0 3.2 10) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.25 0) (layer F.CrtYd) (width 0.05))
+    (fp_text user %R (at 0.3 0 10) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 np_thru_hole circle (at 0 0 10) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
+  )
+
+  (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB44A11)
+    (at 83.426593 108.540779 10)
+    (fp_text reference REF** (at 0 0.5 10) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Hole_MXCherry_mod (at 0 -0.5 10) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
@@ -166,11 +280,11 @@
   )
 
   (module angelina72:Hole_MXCherry_1.25u_mod (layer F.Cu) (tedit 5DB3C026) (tstamp 5DB4488B)
-    (at 79.465901 122.56719)
-    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
+    (at 79.699371 128.541866 10)
+    (fp_text reference REF** (at 0 0.5 10) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_1.25u_mod (at 0 -0.5) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_1.25u_mod (at 0 -0.5 10) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 11.5 -9) (end 11.5 9) (layer Dwgs.User) (width 0.12))
@@ -220,133 +334,43 @@
   )
 
   (module angelina72:M2_Hole_NoPad (layer F.Cu) (tedit 5DB3F0EF) (tstamp 5DB45BB9)
-    (at 124.713597 55.603379 350)
+    (at 112.631509 54.738205)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (attr virtual)
-    (fp_text reference REF** (at 0 -3.2 170) (layer F.Fab) hide
+    (fp_text reference REF** (at 0 -3.2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value M2_Hole_NoPad (at 0 3.2 170) (layer F.Fab) hide
+    (fp_text value M2_Hole_NoPad (at 0 3.2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 2.25 0) (layer F.CrtYd) (width 0.05))
-    (fp_text user %R (at 0.3 0 170) (layer F.Fab) hide
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 np_thru_hole circle (at 0 0 350) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
+    (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
   (module angelina72:M2_Hole_NoPad (layer F.Cu) (tedit 5DB3F0EF) (tstamp 5DB451F3)
-    (at 68.273859 55.182185)
+    (at 56.976078 64.124067 10)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (attr virtual)
-    (fp_text reference REF** (at 0 -3.2) (layer F.Fab) hide
+    (fp_text reference REF** (at 0 -3.2 10) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value M2_Hole_NoPad (at 0 3.2) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_circle (center 0 0) (end 2.25 0) (layer F.CrtYd) (width 0.05))
-    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
-  )
-
-  (module angelina72:M2_Hole_NoPad (layer F.Cu) (tedit 5DB3F0EF) (tstamp 5DB844F5)
-    (at 197.948174 100.312396 350)
-    (descr "Mounting Hole 2.2mm, no annular, M2")
-    (tags "mounting hole 2.2mm no annular m2")
-    (attr virtual)
-    (fp_text reference REF** (at 0 -3.2 170) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value M2_Hole_NoPad (at 0 3.2 170) (layer F.Fab) hide
+    (fp_text value M2_Hole_NoPad (at 0 3.2 10) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 2.25 0) (layer F.CrtYd) (width 0.05))
-    (fp_text user %R (at 0.3 0 170) (layer F.Fab) hide
+    (fp_text user %R (at 0.3 0 10) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 np_thru_hole circle (at 0 0 350) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
-  )
-
-  (module angelina72:M2_Hole_NoPad (layer F.Cu) (tedit 5DB3F0EF) (tstamp 5DB844D8)
-    (at 207.910803 123.347342 350)
-    (descr "Mounting Hole 2.2mm, no annular, M2")
-    (tags "mounting hole 2.2mm no annular m2")
-    (attr virtual)
-    (fp_text reference REF** (at 0 -3.2 170) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value M2_Hole_NoPad (at 0 3.2 170) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_circle (center 0 0) (end 2.25 0) (layer F.CrtYd) (width 0.05))
-    (fp_text user %R (at 0.3 0 170) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 np_thru_hole circle (at 0 0 350) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
+    (pad 1 np_thru_hole circle (at 0 0 10) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
   (module angelina72:M2_Hole_NoPad (layer F.Cu) (tedit 5DB3F0EF) (tstamp 5DB43438)
-    (at 181.509403 65.991732 350)
-    (descr "Mounting Hole 2.2mm, no annular, M2")
-    (tags "mounting hole 2.2mm no annular m2")
-    (attr virtual)
-    (fp_text reference REF** (at 0 -3.2 170) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value M2_Hole_NoPad (at 0 3.2 170) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_circle (center 0 0) (end 2.25 0) (layer F.CrtYd) (width 0.05))
-    (fp_text user %R (at 0.3 0 170) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 np_thru_hole circle (at 0 0 350) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
-  )
-
-  (module angelina72:M2_Hole_NoPad (layer F.Cu) (tedit 5DB3F0EF) (tstamp 5DB4344A)
-    (at 138.449439 118.232488 350)
-    (descr "Mounting Hole 2.2mm, no annular, M2")
-    (tags "mounting hole 2.2mm no annular m2")
-    (attr virtual)
-    (fp_text reference REF** (at 0 -3.2 170) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value M2_Hole_NoPad (at 0 3.2 170) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_circle (center 0 0) (end 2.25 0) (layer F.CrtYd) (width 0.05))
-    (fp_text user %R (at 0.3 0 170) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 np_thru_hole circle (at 0 0 350) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
-  )
-
-  (module angelina72:M2_Hole_NoPad (layer F.Cu) (tedit 5DB3F0EF) (tstamp 5DB43639)
-    (at 186.059585 135.211315 320)
-    (descr "Mounting Hole 2.2mm, no annular, M2")
-    (tags "mounting hole 2.2mm no annular m2")
-    (attr virtual)
-    (fp_text reference REF** (at 0 -3.2 140) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value M2_Hole_NoPad (at 0 3.2 140) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_circle (center 0 0) (end 2.25 0) (layer F.CrtYd) (width 0.05))
-    (fp_text user %R (at 0.3 0 140) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 np_thru_hole circle (at 0 0 320) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
-  )
-
-  (module angelina72:M2_Hole_NoPad (layer F.Cu) (tedit 5DB3F0EF) (tstamp 5DB42A4A)
-    (at 77.084684 112.302186)
+    (at 170.368378 55.106248)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (attr virtual)
@@ -356,19 +380,73 @@
     (fp_text value M2_Hole_NoPad (at 0 3.2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
+    (fp_circle (center 0 0) (end 2.25 0) (layer F.CrtYd) (width 0.05))
     (fp_text user %R (at 0.3 0) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_circle (center 0 0) (end 2.25 0) (layer F.CrtYd) (width 0.05))
     (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB4556F)
-    (at 77.799026 46.36719)
-    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
+  (module angelina72:M2_Hole_NoPad (layer F.Cu) (tedit 5DB3F0EF) (tstamp 5DB4344A)
+    (at 137.034103 114.030634)
+    (descr "Mounting Hole 2.2mm, no annular, M2")
+    (tags "mounting hole 2.2mm no annular m2")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -3.2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_mod (at 0 -0.5) (layer F.Fab) hide
+    (fp_text value M2_Hole_NoPad (at 0 3.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.25 0) (layer F.CrtYd) (width 0.05))
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
+  )
+
+  (module angelina72:M2_Hole_NoPad (layer F.Cu) (tedit 5DB3F0EF) (tstamp 5DB43639)
+    (at 186.869287 122.484098 330)
+    (descr "Mounting Hole 2.2mm, no annular, M2")
+    (tags "mounting hole 2.2mm no annular m2")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -3.2 150) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value M2_Hole_NoPad (at 0 3.2 150) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.25 0) (layer F.CrtYd) (width 0.05))
+    (fp_text user %R (at 0.3 0 150) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 np_thru_hole circle (at 0 0 330) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
+  )
+
+  (module angelina72:M2_Hole_NoPad (layer F.Cu) (tedit 5DB3F0EF) (tstamp 5DB42A4A)
+    (at 75.571831 118.846305 10)
+    (descr "Mounting Hole 2.2mm, no annular, M2")
+    (tags "mounting hole 2.2mm no annular m2")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -3.2 10) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value M2_Hole_NoPad (at 0 3.2 10) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0.3 0 10) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.25 0) (layer F.CrtYd) (width 0.05))
+    (pad 1 np_thru_hole circle (at 0 0 10) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
+  )
+
+  (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB4556F)
+    (at 64.825828 53.788965 10)
+    (fp_text reference REF** (at 0 0.5 10) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Hole_MXCherry_mod (at 0 -0.5 10) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
@@ -418,11 +496,11 @@
   )
 
   (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB45620)
-    (at 64.727151 65.41719)
-    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
+    (at 55.260541 74.81946 10)
+    (fp_text reference REF** (at 0 0.5 10) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_mod (at 0 -0.5) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_mod (at 0 -0.5 10) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
@@ -472,11 +550,11 @@
   )
 
   (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB457BF)
-    (at 58.774026 46.367191)
-    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
+    (at 46.089861 57.092622 10)
+    (fp_text reference REF** (at 0 0.5 10) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_mod (at 0 -0.5) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_mod (at 0 -0.5 10) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
@@ -526,11 +604,11 @@
   )
 
   (module angelina72:Layout (layer F.Cu) (tedit 5DAC5E40) (tstamp 5DB453EB)
-    (at 115.184681 113.042186)
-    (fp_text reference REF** (at -0.005 0.504402) (layer F.Fab) hide
+    (at 113.221474 112.959076 10)
+    (fp_text reference REF** (at -0.005 0.504402 10) (layer F.Fab) hide
       (effects (font (size 0 0) (thickness 0.15)))
     )
-    (fp_text value Layout (at -0.005 -0.495598) (layer F.Fab) hide
+    (fp_text value Layout (at -0.005 -0.495598 10) (layer F.Fab) hide
       (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_line (start -23.81253 0.000003) (end -23.81253 19.050002) (layer Eco1.User) (width 0.05))
@@ -679,12 +757,12 @@
     (fp_line (start 85.468031 34.414183) (end 70.874887 22.169081) (layer Eco1.User) (width 0.05))
   )
 
-  (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB40513)
-    (at 192.42473 58.958121 350)
-    (fp_text reference REF** (at 0 0.5 170) (layer F.Fab) hide
+  (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB5046B)
+    (at 179.896503 46.284067)
+    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_mod (at 0 -0.5 170) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_mod (at 0 -0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
@@ -734,11 +812,11 @@
   )
 
   (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB40FC5)
-    (at 173.664143 55.650124 350)
-    (fp_text reference REF** (at 0 0.5 170) (layer F.Fab) hide
+    (at 160.846503 46.284067)
+    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_mod (at 0 -0.5 170) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_mod (at 0 -0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
@@ -788,11 +866,11 @@
   )
 
   (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB412AE)
-    (at 136.142967 49.034128 350)
-    (fp_text reference REF** (at 0 0.5 170) (layer F.Fab) hide
+    (at 122.746503 46.284067)
+    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_mod (at 0 -0.5 170) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_mod (at 0 -0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
@@ -842,11 +920,11 @@
   )
 
   (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB412D9)
-    (at 154.903555 52.342126 350)
-    (fp_text reference REF** (at 0 0.5 170) (layer F.Fab) hide
+    (at 141.796503 46.284067)
+    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_mod (at 0 -0.5 170) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_mod (at 0 -0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
@@ -896,11 +974,11 @@
   )
 
   (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB414D8)
-    (at 160.975851 72.756713 350)
-    (fp_text reference REF** (at 0 0.5 170) (layer F.Fab) hide
+    (at 151.321502 65.334067)
+    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_mod (at 0 -0.5 170) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_mod (at 0 -0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
@@ -950,11 +1028,11 @@
   )
 
   (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB41503)
-    (at 142.215264 69.448715 350)
-    (fp_text reference REF** (at 0 0.5 170) (layer F.Fab) hide
+    (at 132.271504 65.334066)
+    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_mod (at 0 -0.5 170) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_mod (at 0 -0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
@@ -1004,11 +1082,11 @@
   )
 
   (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB4152E)
-    (at 123.454676 66.140717 350)
-    (fp_text reference REF** (at 0 0.5 170) (layer F.Fab) hide
+    (at 113.221503 65.334067)
+    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_mod (at 0 -0.5 170) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_mod (at 0 -0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
@@ -1058,11 +1136,11 @@
   )
 
   (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB41559)
-    (at 179.736439 76.06471 350)
-    (fp_text reference REF** (at 0 0.5 170) (layer F.Fab) hide
+    (at 170.371503 65.334067)
+    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_mod (at 0 -0.5 170) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_mod (at 0 -0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
@@ -1112,11 +1190,11 @@
   )
 
   (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB41630)
-    (at 157.667854 91.5173 350)
-    (fp_text reference REF** (at 0 0.5 170) (layer F.Fab) hide
+    (at 151.321504 84.384067)
+    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_mod (at 0 -0.5 170) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_mod (at 0 -0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
@@ -1166,11 +1244,11 @@
   )
 
   (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB4165B)
-    (at 138.907265 88.209302 350)
-    (fp_text reference REF** (at 0 0.5 170) (layer F.Fab) hide
+    (at 132.271502 84.384067)
+    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_mod (at 0 -0.5 170) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_mod (at 0 -0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
@@ -1220,11 +1298,11 @@
   )
 
   (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB41686)
-    (at 120.146678 84.901306 350)
-    (fp_text reference REF** (at 0 0.5 170) (layer F.Fab) hide
+    (at 113.221503 84.384068)
+    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_mod (at 0 -0.5 170) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_mod (at 0 -0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
@@ -1274,11 +1352,11 @@
   )
 
   (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB416B1)
-    (at 176.428441 94.825298 350)
-    (fp_text reference REF** (at 0 0.5 170) (layer F.Fab) hide
+    (at 170.371503 84.384067)
+    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_mod (at 0 -0.5 170) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_mod (at 0 -0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
@@ -1328,11 +1406,11 @@
   )
 
   (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB41788)
-    (at 163.74015 111.931887 350)
-    (fp_text reference REF** (at 0 0.5 170) (layer F.Fab) hide
+    (at 160.846504 103.434067)
+    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_mod (at 0 -0.5 170) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_mod (at 0 -0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
@@ -1382,11 +1460,11 @@
   )
 
   (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB417B3)
-    (at 144.979562 108.623889 350)
-    (fp_text reference REF** (at 0 0.5 170) (layer F.Fab) hide
+    (at 141.796503 103.434067)
+    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_mod (at 0 -0.5 170) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_mod (at 0 -0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
@@ -1436,11 +1514,11 @@
   )
 
   (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB417DE)
-    (at 126.218974 105.315891 350)
-    (fp_text reference REF** (at 0 0.5 170) (layer F.Fab) hide
+    (at 122.746503 103.434067)
+    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_mod (at 0 -0.5 170) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_mod (at 0 -0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
@@ -1489,12 +1567,12 @@
     (fp_line (start 1 7.3) (end 2.7 7.3) (layer F.CrtYd) (width 0.12))
   )
 
-  (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB41809)
-    (at 182.500737 115.239886 350)
-    (fp_text reference REF** (at 0 0.5 170) (layer F.Fab) hide
+  (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB50585)
+    (at 179.896503 103.434068)
+    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_mod (at 0 -0.5 170) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_mod (at 0 -0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
@@ -1544,11 +1622,11 @@
   )
 
   (module angelina72:Hole_MXCherry_1.25u_mod (layer F.Cu) (tedit 5DB3C026) (tstamp 5DB428EC)
-    (at 148.706784 128.624976 350)
-    (fp_text reference REF** (at 0 0.5 170) (layer F.Fab) hide
+    (at 148.940253 122.484068)
+    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_1.25u_mod (at 0 -0.5 170) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_1.25u_mod (at 0 -0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 11.5 -9) (end 11.5 9) (layer Dwgs.User) (width 0.12))
@@ -1598,11 +1676,11 @@
   )
 
   (module angelina72:Hole_MXCherry_1.25u_mod (layer F.Cu) (tedit 5DB3C026) (tstamp 5DB42AEC)
-    (at 125.256049 124.48998 350)
-    (fp_text reference REF** (at 0 0.5 170) (layer F.Fab) hide
+    (at 125.127753 122.484068)
+    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_1.25u_mod (at 0 -0.5 170) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_1.25u_mod (at 0 -0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 11.5 -9) (end 11.5 9) (layer Dwgs.User) (width 0.12))
@@ -1652,11 +1730,11 @@
   )
 
   (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB42FB7)
-    (at 172.640443 136.385289 320)
-    (fp_text reference REF** (at 0 0.5 140) (layer F.Fab) hide
+    (at 173.85787 125.970447 330)
+    (fp_text reference REF** (at 0 0.5 150) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_mod (at 0 -0.5 140) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_mod (at 0 -0.5 150) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
@@ -1706,11 +1784,11 @@
   )
 
   (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB42FB9)
-    (at 187.23359 148.630393 320)
-    (fp_text reference REF** (at 0 0.5 140) (layer F.Fab) hide
+    (at 190.355654 135.495447 330)
+    (fp_text reference REF** (at 0 0.5 150) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_mod (at 0 -0.5 140) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_mod (at 0 -0.5 150) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
@@ -1759,66 +1837,66 @@
     (fp_line (start 1 7.3) (end 2.7 7.3) (layer F.CrtYd) (width 0.12))
   )
 
-  (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB4300F)
-    (at 199.478694 134.037246 320)
-    (fp_text reference REF** (at 0 0.5 140) (layer F.Fab) hide
+  (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB504F8)
+    (at 199.880654 118.997663 330)
+    (fp_text reference REF** (at 0 0.5 150) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_mod (at 0 -0.5 140) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_mod (at 0 -0.5 150) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
-    (fp_line (start -9 9) (end -9 -9) (layer Dwgs.User) (width 0.12))
-    (fp_line (start -9 9) (end 9 9) (layer Dwgs.User) (width 0.12))
-    (fp_line (start -9 -9) (end 9 -9) (layer Dwgs.User) (width 0.12))
-    (fp_arc (start 6.8 6.9) (end 6.8 7.9) (angle -90) (layer F.CrtYd) (width 0.12))
-    (fp_line (start -9.525 9.525) (end 9.525 9.525) (layer Dwgs.User) (width 0.05))
-    (fp_line (start -9.525 9.525) (end -9.525 -9.525) (layer Dwgs.User) (width 0.05))
-    (fp_line (start 9.525 9.525) (end 9.525 -9.525) (layer Dwgs.User) (width 0.05))
-    (fp_line (start -9.525 -9.525) (end 9.525 -9.525) (layer Dwgs.User) (width 0.05))
-    (fp_line (start -6.975 -6.975) (end 6.975 -6.975) (layer Edge.Cuts) (width 0.05))
-    (fp_line (start -6.975 -6.975) (end -6.975 6.975) (layer Edge.Cuts) (width 0.05))
-    (fp_line (start 6.975 -6.975) (end 6.975 6.975) (layer Edge.Cuts) (width 0.05))
-    (fp_line (start -6.975 6.975) (end 6.975 6.975) (layer Edge.Cuts) (width 0.05))
-    (fp_arc (start -6.8 6.9) (end -7.8 6.9) (angle -90) (layer F.CrtYd) (width 0.12))
-    (fp_arc (start -6.8 -6.9) (end -6.8 -7.9) (angle -90) (layer F.CrtYd) (width 0.12))
-    (fp_arc (start 6.8 -6.9) (end 7.8 -6.9) (angle -90) (layer F.CrtYd) (width 0.12))
-    (fp_line (start 7.3 5.8) (end 7.3 -5.8) (layer F.CrtYd) (width 0.12))
-    (fp_line (start -7.3 -5.8) (end -7.3 5.8) (layer F.CrtYd) (width 0.12))
-    (fp_line (start -2.7 -7.9) (end -2.7 -7.3) (layer F.CrtYd) (width 0.12))
-    (fp_line (start -7.8 -6.9) (end -7.8 -5.8) (layer F.CrtYd) (width 0.12))
-    (fp_line (start -7.8 -5.8) (end -7.3 -5.8) (layer F.CrtYd) (width 0.12))
-    (fp_line (start -6.8 -7.9) (end -2.7 -7.9) (layer F.CrtYd) (width 0.12))
-    (fp_line (start 2.7 7.9) (end 2.7 7.3) (layer F.CrtYd) (width 0.12))
-    (fp_line (start 7.8 6.9) (end 7.8 5.8) (layer F.CrtYd) (width 0.12))
-    (fp_line (start 7.8 5.8) (end 7.3 5.8) (layer F.CrtYd) (width 0.12))
-    (fp_line (start 6.8 7.9) (end 2.7 7.9) (layer F.CrtYd) (width 0.12))
-    (fp_line (start -7.8 6.9) (end -7.8 5.8) (layer F.CrtYd) (width 0.12))
-    (fp_line (start -6.8 7.9) (end -2.7 7.9) (layer F.CrtYd) (width 0.12))
-    (fp_line (start -2.7 7.9) (end -2.7 7.3) (layer F.CrtYd) (width 0.12))
-    (fp_line (start -7.8 5.8) (end -7.3 5.8) (layer F.CrtYd) (width 0.12))
-    (fp_line (start 2.7 -7.9) (end 2.7 -7.3) (layer F.CrtYd) (width 0.12))
-    (fp_line (start 7.8 -5.8) (end 7.3 -5.8) (layer F.CrtYd) (width 0.12))
-    (fp_line (start 6.8 -7.9) (end 2.7 -7.9) (layer F.CrtYd) (width 0.12))
-    (fp_line (start 7.8 -6.9) (end 7.8 -5.8) (layer F.CrtYd) (width 0.12))
-    (fp_line (start -1 -7.9) (end 1 -7.9) (layer F.CrtYd) (width 0.12))
-    (fp_line (start 1 -7.9) (end 1 -7.3) (layer F.CrtYd) (width 0.12))
-    (fp_line (start 1 -7.3) (end 2.7 -7.3) (layer F.CrtYd) (width 0.12))
-    (fp_line (start -1 -7.9) (end -1 -7.3) (layer F.CrtYd) (width 0.12))
-    (fp_line (start -1 -7.3) (end -2.7 -7.3) (layer F.CrtYd) (width 0.12))
-    (fp_line (start -2.7 7.3) (end -1 7.3) (layer F.CrtYd) (width 0.12))
-    (fp_line (start -1 7.3) (end -1 7.9) (layer F.CrtYd) (width 0.12))
-    (fp_line (start -1 7.9) (end 1 7.9) (layer F.CrtYd) (width 0.12))
-    (fp_line (start 1 7.9) (end 1 7.3) (layer F.CrtYd) (width 0.12))
     (fp_line (start 1 7.3) (end 2.7 7.3) (layer F.CrtYd) (width 0.12))
+    (fp_line (start 1 7.9) (end 1 7.3) (layer F.CrtYd) (width 0.12))
+    (fp_line (start -1 7.9) (end 1 7.9) (layer F.CrtYd) (width 0.12))
+    (fp_line (start -1 7.3) (end -1 7.9) (layer F.CrtYd) (width 0.12))
+    (fp_line (start -2.7 7.3) (end -1 7.3) (layer F.CrtYd) (width 0.12))
+    (fp_line (start -1 -7.3) (end -2.7 -7.3) (layer F.CrtYd) (width 0.12))
+    (fp_line (start -1 -7.9) (end -1 -7.3) (layer F.CrtYd) (width 0.12))
+    (fp_line (start 1 -7.3) (end 2.7 -7.3) (layer F.CrtYd) (width 0.12))
+    (fp_line (start 1 -7.9) (end 1 -7.3) (layer F.CrtYd) (width 0.12))
+    (fp_line (start -1 -7.9) (end 1 -7.9) (layer F.CrtYd) (width 0.12))
+    (fp_line (start 7.8 -6.9) (end 7.8 -5.8) (layer F.CrtYd) (width 0.12))
+    (fp_line (start 6.8 -7.9) (end 2.7 -7.9) (layer F.CrtYd) (width 0.12))
+    (fp_line (start 7.8 -5.8) (end 7.3 -5.8) (layer F.CrtYd) (width 0.12))
+    (fp_line (start 2.7 -7.9) (end 2.7 -7.3) (layer F.CrtYd) (width 0.12))
+    (fp_line (start -7.8 5.8) (end -7.3 5.8) (layer F.CrtYd) (width 0.12))
+    (fp_line (start -2.7 7.9) (end -2.7 7.3) (layer F.CrtYd) (width 0.12))
+    (fp_line (start -6.8 7.9) (end -2.7 7.9) (layer F.CrtYd) (width 0.12))
+    (fp_line (start -7.8 6.9) (end -7.8 5.8) (layer F.CrtYd) (width 0.12))
+    (fp_line (start 6.8 7.9) (end 2.7 7.9) (layer F.CrtYd) (width 0.12))
+    (fp_line (start 7.8 5.8) (end 7.3 5.8) (layer F.CrtYd) (width 0.12))
+    (fp_line (start 7.8 6.9) (end 7.8 5.8) (layer F.CrtYd) (width 0.12))
+    (fp_line (start 2.7 7.9) (end 2.7 7.3) (layer F.CrtYd) (width 0.12))
+    (fp_line (start -6.8 -7.9) (end -2.7 -7.9) (layer F.CrtYd) (width 0.12))
+    (fp_line (start -7.8 -5.8) (end -7.3 -5.8) (layer F.CrtYd) (width 0.12))
+    (fp_line (start -7.8 -6.9) (end -7.8 -5.8) (layer F.CrtYd) (width 0.12))
+    (fp_line (start -2.7 -7.9) (end -2.7 -7.3) (layer F.CrtYd) (width 0.12))
+    (fp_line (start -7.3 -5.8) (end -7.3 5.8) (layer F.CrtYd) (width 0.12))
+    (fp_line (start 7.3 5.8) (end 7.3 -5.8) (layer F.CrtYd) (width 0.12))
+    (fp_arc (start 6.8 -6.9) (end 7.8 -6.9) (angle -90) (layer F.CrtYd) (width 0.12))
+    (fp_arc (start -6.8 -6.9) (end -6.8 -7.9) (angle -90) (layer F.CrtYd) (width 0.12))
+    (fp_arc (start -6.8 6.9) (end -7.8 6.9) (angle -90) (layer F.CrtYd) (width 0.12))
+    (fp_line (start -6.975 6.975) (end 6.975 6.975) (layer Edge.Cuts) (width 0.05))
+    (fp_line (start 6.975 -6.975) (end 6.975 6.975) (layer Edge.Cuts) (width 0.05))
+    (fp_line (start -6.975 -6.975) (end -6.975 6.975) (layer Edge.Cuts) (width 0.05))
+    (fp_line (start -6.975 -6.975) (end 6.975 -6.975) (layer Edge.Cuts) (width 0.05))
+    (fp_line (start -9.525 -9.525) (end 9.525 -9.525) (layer Dwgs.User) (width 0.05))
+    (fp_line (start 9.525 9.525) (end 9.525 -9.525) (layer Dwgs.User) (width 0.05))
+    (fp_line (start -9.525 9.525) (end -9.525 -9.525) (layer Dwgs.User) (width 0.05))
+    (fp_line (start -9.525 9.525) (end 9.525 9.525) (layer Dwgs.User) (width 0.05))
+    (fp_arc (start 6.8 6.9) (end 6.8 7.9) (angle -90) (layer F.CrtYd) (width 0.12))
+    (fp_line (start -9 -9) (end 9 -9) (layer Dwgs.User) (width 0.12))
+    (fp_line (start -9 9) (end 9 9) (layer Dwgs.User) (width 0.12))
+    (fp_line (start -9 9) (end -9 -9) (layer Dwgs.User) (width 0.12))
+    (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
   )
 
   (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB449B9)
-    (at 100.897151 122.56719)
-    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
+    (at 100.805032 124.820368 10)
+    (fp_text reference REF** (at 0 0.5 10) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_mod (at 0 -0.5) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_mod (at 0 -0.5 10) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
@@ -1868,11 +1946,11 @@
   )
 
   (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB449BB)
-    (at 105.659651 103.51719)
-    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
+    (at 102.18718 105.232781 10)
+    (fp_text reference REF** (at 0 0.5 10) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_mod (at 0 -0.5) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_mod (at 0 -0.5 10) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
@@ -1922,11 +2000,11 @@
   )
 
   (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB44A67)
-    (at 99.706526 84.46719)
-    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
+    (at 93.0165 87.505943 10)
+    (fp_text reference REF** (at 0 0.5 10) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_mod (at 0 -0.5) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_mod (at 0 -0.5 10) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
@@ -1976,11 +2054,11 @@
   )
 
   (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB44B98)
-    (at 83.752151 65.41719)
-    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
+    (at 73.99651 71.515803 10)
+    (fp_text reference REF** (at 0 0.5 10) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_mod (at 0 -0.5) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_mod (at 0 -0.5 10) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
@@ -2030,11 +2108,11 @@
   )
 
   (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB44BC3)
-    (at 102.80215 65.417191)
-    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
+    (at 92.757097 68.207806 10)
+    (fp_text reference REF** (at 0 0.5 10) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_mod (at 0 -0.5) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_mod (at 0 -0.5 10) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
@@ -2084,11 +2162,11 @@
   )
 
   (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB44C44)
-    (at 96.849026 46.36719)
-    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
+    (at 83.586416 50.480966 10)
+    (fp_text reference REF** (at 0 0.5 10) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_mod (at 0 -0.5) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_mod (at 0 -0.5 10) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
@@ -2138,11 +2216,11 @@
   )
 
   (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB44CF3)
-    (at 115.899026 45.652815)
-    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
+    (at 102.222954 46.469447 10)
+    (fp_text reference REF** (at 0 0.5 10) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_mod (at 0 -0.5) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_mod (at 0 -0.5 10) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
@@ -2192,11 +2270,11 @@
   )
 
   (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB455CA)
-    (at 61.631525 84.46719)
-    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
+    (at 55.519944 94.117598 10)
+    (fp_text reference REF** (at 0 0.5 10) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_mod (at 0 -0.5) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_mod (at 0 -0.5 10) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
@@ -2246,11 +2324,11 @@
   )
 
   (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB4564B)
-    (at 67.584651 103.517191)
-    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
+    (at 64.690626 111.844436 10)
+    (fp_text reference REF** (at 0 0.5 10) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_mod (at 0 -0.5) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_mod (at 0 -0.5 10) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
@@ -2300,11 +2378,11 @@
   )
 
   (module angelina72:Hole_MXCherry_mod (layer F.Cu) (tedit 5DB3BCA0) (tstamp 5DB45AF9)
-    (at 80.656556 84.467187)
-    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
+    (at 74.255942 90.813932 10)
+    (fp_text reference REF** (at 0 0.5 10) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Hole_MXCherry_mod (at 0 -0.5) (layer F.Fab) hide
+    (fp_text value Hole_MXCherry_mod (at 0 -0.5 10) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 9 9) (end 9 -9) (layer Dwgs.User) (width 0.12))
@@ -2353,106 +2431,141 @@
     (fp_line (start 1 7.3) (end 2.7 7.3) (layer F.CrtYd) (width 0.12))
   )
 
-  (gr_line (start 68.602151 91.44219) (end 67.602151 91.442189) (layer Cmts.User) (width 0.01) (tstamp 5DB42957))
-  (gr_line (start 67.602151 92.963841) (end 67.602151 95.04219) (layer Edge.Cuts) (width 0.05) (tstamp 5DB42956))
-  (gr_line (start 68.602151 95.04219) (end 68.602151 92.920539) (layer Edge.Cuts) (width 0.05) (tstamp 5DB42955))
-  (gr_line (start 68.602151 96.542191) (end 67.602151 96.54219) (layer Cmts.User) (width 0.01) (tstamp 5DB42954))
-  (gr_arc (start 68.102151 95.04219) (end 67.602151 95.04219) (angle -180) (layer Edge.Cuts) (width 0.05) (tstamp 5DB42953))
-  (gr_arc (start 68.102151 92.94219) (end 68.602151 92.920539) (angle -180) (layer Edge.Cuts) (width 0.05) (tstamp 5DB42952))
-  (gr_line (start 68.602151 91.44219) (end 68.602151 96.542191) (layer Cmts.User) (width 0.01) (tstamp 5DB42951))
-  (gr_line (start 67.602151 91.442189) (end 67.602151 96.54219) (layer Cmts.User) (width 0.01) (tstamp 5DB4294F))
-  (gr_arc (start 68.102151 73.89219) (end 68.602151 73.89219) (angle -180) (layer Edge.Cuts) (width 0.05) (tstamp 5DB42945))
-  (gr_line (start 67.602151 73.89219) (end 67.602151 75.99219) (layer Edge.Cuts) (width 0.05) (tstamp 5DB42944))
-  (gr_line (start 68.602151 72.39219) (end 67.602151 72.392189) (layer Cmts.User) (width 0.01) (tstamp 5DB42943))
-  (gr_line (start 68.602151 72.39219) (end 68.602151 77.492191) (layer Cmts.User) (width 0.01) (tstamp 5DB42942))
-  (gr_line (start 68.602151 77.492191) (end 67.602151 77.49219) (layer Cmts.User) (width 0.01) (tstamp 5DB42941))
-  (gr_line (start 67.602151 72.392189) (end 67.602151 77.49219) (layer Cmts.User) (width 0.01) (tstamp 5DB42940))
-  (gr_arc (start 68.102151 75.99219) (end 67.602151 75.99219) (angle -180) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4293E))
-  (gr_line (start 68.602151 75.99219) (end 68.602151 73.89219) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4293D))
-  (gr_line (start 64.752151 53.342189) (end 64.752151 58.44219) (layer Cmts.User) (width 0.01) (tstamp 5DB4283F))
-  (gr_line (start 65.752151 53.34219) (end 64.752151 53.342189) (layer Cmts.User) (width 0.01) (tstamp 5DB42839))
-  (gr_line (start 65.752151 58.442191) (end 64.752151 58.44219) (layer Cmts.User) (width 0.01))
-  (gr_line (start 64.752151 54.84219) (end 64.752151 56.94219) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4280D))
-  (gr_line (start 65.752151 56.94219) (end 65.752151 54.84219) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4280C))
-  (gr_arc (start 65.252151 56.94219) (end 64.752151 56.94219) (angle -180) (layer Edge.Cuts) (width 0.05) (tstamp 5DB42805))
-  (gr_arc (start 65.252151 54.84219) (end 65.752151 54.84219) (angle -180) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 65.752151 53.34219) (end 65.752151 58.442191) (layer Cmts.User) (width 0.01))
-  (gr_arc (start 66.487914 112.090934) (end 66.487913 112.567186) (angle -90.00012031) (layer Edge.Cuts) (width 0.05) (tstamp 5DB45CC9))
-  (gr_arc (start 67.440393 112.090933) (end 67.91662 112.090954) (angle -180.0026468) (layer Edge.Cuts) (width 0.05) (tstamp 5DB42987))
-  (gr_arc (start 65.27843 37.794686) (end 64.802184 37.794685) (angle -180) (layer Edge.Cuts) (width 0.05) (tstamp 5DB45CB0))
-  (gr_arc (start 66.230934 37.794682) (end 66.230934 37.318436) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB45CAE))
-  (gr_arc (start 64.325931 37.794685) (end 64.802184 37.794685) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB45CAD))
-  (gr_line (start 210.203669 130.913586) (end 221.889974 64.637255) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4332D))
-  (gr_line (start 221.503657 64.08554) (end 201.805073 60.612136) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4332C))
-  (gr_line (start 66.230934 37.318436) (end 106.016829 37.318754) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4332B))
-  (gr_line (start 106.731208 36.604061) (end 124.471602 36.604075) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4332A))
-  (gr_line (start 124.947853 37.080326) (end 124.948463 37.47228) (layer Edge.Cuts) (width 0.05) (tstamp 5DB43329))
-  (gr_line (start 49.700306 37.794686) (end 49.700305 54.939686) (layer Edge.Cuts) (width 0.05) (tstamp 5DB43328))
-  (gr_line (start 50.176556 55.415936) (end 55.177181 55.415935) (layer Edge.Cuts) (width 0.05) (tstamp 5DB43327))
-  (gr_line (start 55.653433 55.892186) (end 55.653434 74.942187) (layer Edge.Cuts) (width 0.05) (tstamp 5DB43326))
-  (gr_line (start 55.177181 75.418437) (end 53.034059 75.418434) (layer Edge.Cuts) (width 0.05) (tstamp 5DB43325))
-  (gr_line (start 52.557807 75.894686) (end 52.557806 93.039685) (layer Edge.Cuts) (width 0.05) (tstamp 5DB43324))
-  (gr_line (start 53.034059 93.515936) (end 58.034681 93.515937) (layer Edge.Cuts) (width 0.05) (tstamp 5DB43323))
-  (gr_line (start 58.510932 93.992186) (end 58.510931 112.089685) (layer Edge.Cuts) (width 0.05) (tstamp 5DB43322))
-  (gr_line (start 67.91662 112.090954) (end 67.916869 131.615937) (layer Edge.Cuts) (width 0.05) (tstamp 5DB43321))
-  (gr_line (start 68.393122 132.092186) (end 116.213701 132.091959) (layer Edge.Cuts) (width 0.05) (tstamp 5DB43320))
-  (gr_line (start 64.325931 37.318432) (end 50.176558 37.318437) (layer Edge.Cuts) (width 0.05) (tstamp 5DB43319))
-  (gr_line (start 66.487913 112.567186) (end 58.98718 112.565936) (layer Edge.Cuts) (width 0.05) (tstamp 5DB432FB))
-  (gr_arc (start 58.987181 112.089686) (end 58.510931 112.089685) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB432FA))
-  (gr_arc (start 50.176556 37.794686) (end 50.176558 37.318437) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB432F8))
-  (gr_arc (start 50.176556 54.939686) (end 49.700305 54.939686) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB432F7))
-  (gr_arc (start 55.177181 55.892186) (end 55.653433 55.892186) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB432F6))
-  (gr_arc (start 55.177183 74.942187) (end 55.177181 75.418437) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB432F5))
-  (gr_arc (start 53.034059 75.894687) (end 53.034059 75.418434) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB432F4))
-  (gr_arc (start 53.034059 93.039686) (end 52.557806 93.039685) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB432F3))
-  (gr_arc (start 58.034681 93.992184) (end 58.510932 93.992186) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB432F2))
-  (gr_arc (start 106.016513 36.961251) (end 106.016829 37.318754) (angle -89.94903567) (layer Edge.Cuts) (width 0.05) (tstamp 5DB432F1))
-  (gr_arc (start 106.731207 36.961251) (end 106.731208 36.604061) (angle -90.00016041) (layer Edge.Cuts) (width 0.05) (tstamp 5DB432F0))
-  (gr_arc (start 68.39312 131.615935) (end 67.916869 131.615937) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB432EF))
-  (gr_line (start 125.342013 37.941293) (end 202.438312 51.535464) (layer Edge.Cuts) (width 0.05) (tstamp 5DB432EE))
-  (gr_line (start 202.824629 52.087179) (end 201.418728 60.060428) (layer Edge.Cuts) (width 0.05) (tstamp 5DB432ED))
-  (gr_line (start 116.2964 132.099195) (end 163.214097 140.37205) (layer Edge.Cuts) (width 0.05) (tstamp 5DB432EC))
-  (gr_arc (start 125.424713 37.472279) (end 125.342013 37.941293) (angle 79.99997897) (layer Edge.Cuts) (width 0.05) (tstamp 5DB432EB))
-  (gr_arc (start 124.471602 37.080327) (end 124.947853 37.080326) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB432EA))
-  (gr_arc (start 116.213699 132.568207) (end 116.2964 132.099195) (angle -10.00000014) (layer Edge.Cuts) (width 0.05) (tstamp 5DB432E9))
-  (gr_line (start 163.437523 140.476235) (end 187.984097 161.072481) (layer Edge.Cuts) (width 0.05) (tstamp 5DB432E8))
-  (gr_line (start 188.655056 161.013782) (end 211.920753 133.286804) (layer Edge.Cuts) (width 0.05) (tstamp 5DB432E7))
-  (gr_line (start 211.862052 132.615847) (end 210.366556 131.361115) (layer Edge.Cuts) (width 0.05) (tstamp 5DB432E6))
-  (gr_arc (start 211.555924 132.980675) (end 211.920753 133.286804) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB432E5))
-  (gr_arc (start 188.290227 160.707654) (end 187.984097 161.072481) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB432E4))
-  (gr_arc (start 210.672684 130.996286) (end 210.366556 131.361115) (angle 60) (layer Edge.Cuts) (width 0.05) (tstamp 5DB432E3))
-  (gr_arc (start 163.131397 140.841063) (end 163.437523 140.476235) (angle -30) (layer Edge.Cuts) (width 0.05) (tstamp 5DB432E2))
-  (gr_arc (start 221.420961 64.554555) (end 221.889974 64.637255) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB432E1))
-  (gr_arc (start 201.887742 60.143128) (end 201.418728 60.060428) (angle -90.00336866) (layer Edge.Cuts) (width 0.05) (tstamp 5DB432E0))
-  (gr_arc (start 202.355612 52.004478) (end 202.824629 52.087179) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB432DF))
+  (gr_circle (center 205.852099 93.432826) (end 206.952099 93.432826) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 189.897678 101.485861) (end 189.897724 101.052826) (layer Edge.Cuts) (width 0.05) (tstamp 5DB50AF6))
+  (gr_line (start 188.945224 101.052826) (end 188.945887 101.960936) (layer Edge.Cuts) (width 0.05) (tstamp 5DB50AF5))
+  (gr_arc (start 189.421474 101.052826) (end 188.945224 101.052826) (angle 180) (layer Edge.Cuts) (width 0.05) (tstamp 5DB50A37))
+  (gr_arc (start 189.421474 96.766576) (end 189.897724 96.767826) (angle 179.8496177) (layer Edge.Cuts) (width 0.05) (tstamp 5DB50A36))
+  (gr_line (start 188.9452 37.711587) (end 188.945222 46.284076) (layer Edge.Cuts) (width 0.05) (tstamp 5DB509AA))
+  (gr_arc (start 189.421474 50.570326) (end 188.945224 50.570326) (angle 180) (layer Edge.Cuts) (width 0.05) (tstamp 5DB5098A))
+  (gr_arc (start 189.421474 46.284076) (end 189.897724 46.285326) (angle 179.8496177) (layer Edge.Cuts) (width 0.05) (tstamp 5DB50978))
+  (gr_arc (start 190.373974 46.285326) (end 190.373974 45.809076) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB503F2))
+  (gr_arc (start 210.376428 46.285311) (end 210.852678 46.285311) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB5043A))
+  (gr_line (start 190.373974 45.809076) (end 210.376428 45.809061) (layer Edge.Cuts) (width 0.05) (tstamp 5DB50437))
+  (gr_line (start 210.852678 46.285311) (end 210.852678 113.032701) (layer Edge.Cuts) (width 0.05) (tstamp 5DB503EF))
+  (gr_arc (start 210.376428 113.032701) (end 210.852678 113.032701) (angle 120) (layer Edge.Cuts) (width 0.05) (tstamp 5DB503E6))
+  (gr_arc (start 190.373928 101.485861) (end 189.897678 101.485861) (angle -60) (layer Edge.Cuts) (width 0.05) (tstamp 5DB503E3))
+  (gr_line (start 189.897724 50.570326) (end 189.897724 96.767826) (layer Edge.Cuts) (width 0.05) (tstamp 5DB50416))
+  (gr_line (start 210.138303 113.445146) (end 190.135803 101.898306) (layer Edge.Cuts) (width 0.05) (tstamp 5DB503EC))
+  (gr_arc (start 189.422137 101.960936) (end 189.184012 102.373381) (angle 60) (layer Edge.Cuts) (width 0.05) (tstamp 5DB48EC5))
+  (gr_arc (start 57.871926 63.719623) (end 57.402914 63.802322) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4611B))
+  (gr_arc (start 57.099447 64.82303) (end 56.630435 64.90573) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB45D25))
+  (gr_arc (start 74.625151 113.477874) (end 74.156136 113.560576) (angle -180) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AF1F))
+  (gr_arc (start 67.302199 100.744797) (end 66.833187 100.827497) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AF1E))
+  (gr_arc (start 66.529569 101.848226) (end 66.060554 101.930925) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AF1D))
+  (gr_line (start 66.612269 102.317241) (end 71.536923 101.44889) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AF1C))
+  (gr_arc (start 71.619623 101.917905) (end 72.088641 101.835205) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AF1B))
+  (gr_arc (start 72.392254 100.814477) (end 72.861266 100.731777) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AF1A))
+  (gr_line (start 72.088641 101.835205) (end 74.156136 113.560576) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AF19))
+  (gr_arc (start 75.700251 119.575065) (end 75.78295 120.04408) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AF18))
+  (gr_arc (start 74.596821 118.802435) (end 74.679522 119.271449) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AF17))
+  (gr_line (start 67.058062 120.615364) (end 57.794991 122.248648) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AF16))
+  (gr_arc (start 57.712293 121.779633) (end 57.243278 121.862332) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AF15))
+  (gr_arc (start 67.306134 122.022368) (end 67.223435 121.553351) (angle -90.00012031) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AF14))
+  (gr_arc (start 36.134329 50.14329) (end 36.051631 49.674276) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AF13))
+  (gr_arc (start 39.111527 67.027819) (end 38.642512 67.110519) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AF12))
+  (gr_arc (start 44.201582 67.097499) (end 44.670598 67.014799) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AF11))
+  (gr_arc (start 47.509581 85.858086) (end 47.592279 86.327103) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AF10))
+  (gr_arc (start 45.564416 87.168266) (end 45.481716 86.699249) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AF0F))
+  (gr_arc (start 48.541614 104.052794) (end 48.072596 104.135494) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AF0E))
+  (gr_arc (start 53.631665 104.122473) (end 54.100681 104.039775) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AF0D))
+  (gr_arc (start 90.981227 39.62601) (end 91.043618 39.978027) (angle -89.94903567) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AF0C))
+  (gr_arc (start 91.685064 39.501905) (end 91.623039 39.150141) (angle -90.00016041) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AF0B))
+  (gr_arc (start 70.366032 139.375912) (end 69.897016 139.458613) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AF0A))
+  (gr_line (start 110.183312 37.235325) (end 188.468948 37.235339) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AF09))
+  (gr_line (start 188.945224 50.570326) (end 188.945222 96.766576) (layer Edge.Cuts) (width 0.05) (tstamp 5DB48EBF))
+  (gr_line (start 117.625469 131.53351) (end 165.266948 131.533511) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AF07))
+  (gr_arc (start 110.183313 36.759076) (end 110.183312 37.235325) (angle 79.99997897) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AF06))
+  (gr_arc (start 109.17662 36.538585) (end 109.645635 36.455884) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AF05))
+  (gr_arc (start 117.625469 132.009759) (end 117.625469 131.53351) (angle -10.00000014) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AF04))
+  (gr_line (start 165.505073 131.597315) (end 193.255229 147.61819) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AF03))
+  (gr_line (start 193.905801 147.443872) (end 212.003301 116.098083) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AF02))
+  (gr_line (start 211.828981 115.447512) (end 189.184012 102.373381) (layer Edge.Cuts) (width 0.05) (tstamp 5DB50434))
+  (gr_arc (start 211.590856 115.859957) (end 212.003301 116.098083) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AF00))
+  (gr_arc (start 193.493356 147.205747) (end 193.255229 147.61819) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEFF))
+  (gr_arc (start 165.266948 132.009759) (end 165.505073 131.597315) (angle -30) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEFD))
+  (gr_arc (start 188.468948 37.711588) (end 188.9452 37.711587) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEFA))
+  (gr_arc (start 67.14076 121.084356) (end 67.223435 121.553351) (angle -180.0026468) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEF9))
+  (gr_arc (start 69.603059 120.650164) (end 69.520386 120.181164) (angle -180.0026468) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEF8))
+  (gr_line (start 74.679522 119.271449) (end 69.520386 120.181164) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEF7))
+  (gr_arc (start 65.27777 76.921911) (end 64.808753 77.004614) (angle -180) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEF6))
+  (gr_arc (start 65.691262 79.266987) (end 66.160276 79.18429) (angle -180) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEF5))
+  (gr_line (start 65.635752 81.694763) (end 65.222251 79.349683) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEF4))
+  (gr_line (start 66.160276 79.18429) (end 66.697833 82.232883) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEF3))
+  (gr_arc (start 65.537171 96.22005) (end 65.068154 96.302749) (angle -180) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEF2))
+  (gr_arc (start 65.950673 98.565123) (end 66.419684 98.482424) (angle -180) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEF1))
+  (gr_line (start 66.060554 101.930925) (end 65.481661 98.647822) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEF0))
+  (gr_line (start 66.419684 98.482424) (end 66.833187 100.827497) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEEF))
+  (gr_line (start 75.549013 115.974756) (end 76.169263 119.492366) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEEE))
+  (gr_line (start 75.065835 118.719735) (end 74.610989 116.140153) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEED))
+  (gr_arc (start 75.080001 116.057455) (end 75.549013 115.974756) (angle -180) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEEC))
+  (gr_arc (start 62.18954 64.892931) (end 62.658554 64.810229) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEEB))
+  (gr_line (start 62.658554 64.810229) (end 64.808753 77.004614) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEEA))
+  (gr_arc (start 65.166737 81.777462) (end 65.249438 82.246476) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEE9))
+  (gr_arc (start 66.22882 82.315581) (end 66.311518 82.784594) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEE8))
+  (gr_line (start 65.249438 82.246476) (end 63.138873 82.618624) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEE7))
+  (gr_arc (start 64.283651 83.62576) (end 64.200951 83.156746) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEE6))
+  (gr_arc (start 63.221571 83.087638) (end 63.138873 82.618624) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEE5))
+  (gr_line (start 62.752557 83.170339) (end 65.068154 96.302749) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEE4))
+  (gr_line (start 54.81222 46.366277) (end 91.043618 39.978027) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEE1))
+  (gr_line (start 91.623039 39.150141) (end 109.09392 36.069568) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEE0))
+  (gr_line (start 109.645635 36.455884) (end 109.714298 36.841777) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEDF))
+  (gr_line (start 35.665315 50.22599) (end 38.642512 67.110519) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEDE))
+  (gr_line (start 39.194227 67.496834) (end 44.118881 66.628482) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEDD))
+  (gr_line (start 44.670598 67.014799) (end 47.978597 85.775387) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEDC))
+  (gr_line (start 47.592279 86.327103) (end 45.481716 86.699249) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEDB))
+  (gr_line (start 45.095399 87.250966) (end 48.072596 104.135494) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEDA))
+  (gr_line (start 48.624314 104.521809) (end 53.548965 103.653462) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AED9))
+  (gr_line (start 54.100681 104.039775) (end 57.243278 121.862332) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AED8))
+  (gr_line (start 66.837117 122.105068) (end 69.897016 139.458613) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AED7))
+  (gr_line (start 70.448734 139.844926) (end 117.542771 131.540746) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AED6))
+  (gr_line (start 53.90137 49.428464) (end 55.59672 59.043273) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AED5))
+  (gr_line (start 56.534751 58.877867) (end 54.839403 49.263066) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AED4))
+  (gr_arc (start 53.956887 47.000694) (end 53.487876 47.083391) (angle -180) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AED3))
+  (gr_arc (start 54.370386 49.345765) (end 54.839403 49.263066) (angle -180) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AED2))
+  (gr_arc (start 54.894919 46.835288) (end 54.81222 46.366277) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AED1))
+  (gr_arc (start 53.018858 47.166092) (end 53.487876 47.083391) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AED0))
+  (gr_line (start 52.936158 46.697079) (end 36.051631 49.674276) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AECF))
+  (gr_arc (start 56.065735 58.96057) (end 55.59672 59.043273) (angle -180) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AECE))
+  (gr_arc (start 56.479236 61.305639) (end 56.948248 61.222941) (angle -180) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AECD))
+  (gr_line (start 56.010224 61.388338) (end 56.630435 64.90573) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AECC))
+  (gr_line (start 56.948248 61.222941) (end 57.402914 63.802322) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AECB))
+  (gr_line (start 57.182145 65.292042) (end 62.106838 64.423916) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AECA))
+  (gr_line (start 57.954624 64.188635) (end 62.879469 63.320486) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEC9))
+  (gr_line (start 63.431184 63.7068) (end 65.746784 76.839211) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEC8))
+  (gr_line (start 66.311518 82.784594) (end 64.200951 83.156746) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEC7))
+  (gr_line (start 63.814639 83.70846) (end 66.006188 96.137351) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEC6))
+  (gr_line (start 67.384899 101.213811) (end 72.309553 100.34546) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEC5))
+  (gr_line (start 72.861266 100.731777) (end 75.094167 113.395172) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEC4))
+  (gr_line (start 75.78295 120.04408) (end 69.685754 121.11916) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEC3))
+  (gr_arc (start 62.962172 63.789499) (end 63.431184 63.7068) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DB4AEC2))
   (dimension 111.680625 (width 0.12) (layer F.Fab)
-    (gr_text "111.681 mm" (at 221.167527 110.330656 -100) (layer F.Fab)
+    (gr_text "111.681 mm" (at 217.535824 92.123128 -90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (feature1 (pts (xy 206.702642 164.481847) (xy 210.797763 165.203928)))
-    (feature2 (pts (xy 226.095779 54.497902) (xy 230.1909 55.219982)))
-    (crossbar (pts (xy 229.613388 55.118152) (xy 210.220251 165.102097)))
-    (arrow1a (pts (xy 210.220251 165.102097) (xy 209.838356 163.890876)))
-    (arrow1b (pts (xy 210.220251 165.102097) (xy 210.99338 164.094538)))
-    (arrow2a (pts (xy 229.613388 55.118152) (xy 228.840262 56.125711)))
-    (arrow2b (pts (xy 229.613388 55.118152) (xy 229.995285 56.329372)))
+    (feature1 (pts (xy 212.693949 147.963442) (xy 216.852244 147.963442)))
+    (feature2 (pts (xy 212.693947 36.282818) (xy 216.852244 36.282817)))
+    (crossbar (pts (xy 216.265823 36.282818) (xy 216.265822 147.963442)))
+    (arrow1a (pts (xy 216.265822 147.963442) (xy 215.679403 146.836938)))
+    (arrow1b (pts (xy 216.265822 147.963442) (xy 216.852245 146.836938)))
+    (arrow2a (pts (xy 216.265823 36.282818) (xy 215.679402 37.409321)))
+    (arrow2b (pts (xy 216.265823 36.282818) (xy 216.852244 37.409321)))
   )
   (dimension 176.68875 (width 0.12) (layer F.Fab)
-    (gr_text "176.689 mm" (at 139.768936 35.326774 -10) (layer F.Fab)
+    (gr_text "176.689 mm" (at 123.937128 32.155316) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (feature1 (pts (xy 226.095779 54.497902) (xy 226.652459 51.340809)))
-    (feature2 (pts (xy 52.091327 23.816222) (xy 52.648009 20.659129)))
-    (crossbar (pts (xy 52.546177 21.236642) (xy 226.550628 51.918321)))
-    (arrow1a (pts (xy 226.550628 51.918321) (xy 225.339408 52.300217)))
-    (arrow1b (pts (xy 226.550628 51.918321) (xy 225.54307 51.145193)))
-    (arrow2a (pts (xy 52.546177 21.236642) (xy 53.553736 22.009768)))
-    (arrow2b (pts (xy 52.546177 21.236642) (xy 53.757398 20.854745)))
+    (feature1 (pts (xy 212.281503 36.044692) (xy 212.281503 32.838896)))
+    (feature2 (pts (xy 35.592753 36.044692) (xy 35.592754 32.838895)))
+    (crossbar (pts (xy 35.592753 33.425317) (xy 212.281503 33.425317)))
+    (arrow1a (pts (xy 212.281503 33.425317) (xy 211.155 34.011737)))
+    (arrow1b (pts (xy 212.281503 33.425317) (xy 211.155 32.838895)))
+    (arrow2a (pts (xy 35.592753 33.425317) (xy 36.719257 34.011737)))
+    (arrow2b (pts (xy 35.592753 33.425317) (xy 36.719257 32.838896)))
   )
-  (gr_line (start 231.325913 168.823594) (end 20.034794 131.567269) (layer Cmts.User) (width 0.1) (tstamp 5DB332D7))
-  (gr_line (start 248.842991 58.508849) (end 37.551872 21.252524) (layer Cmts.User) (width 0.1) (tstamp 5DB332CE))
-  (gr_line (start 29.845042 149.981174) (end 55.233926 5.993664) (layer Cmts.User) (width 0.1) (tstamp 5DB332BF))
-  (gr_line (start 204.056243 179.490318) (end 229.445127 35.502807) (layer Cmts.User) (width 0.1))
-  (gr_line (start 201.17061 61.467449) (end 192.445765 110.9485) (layer Cmts.User) (width 0.12))
+  (gr_line (start 237.284628 147.725317) (end 22.734003 147.725317) (layer Cmts.User) (width 0.1) (tstamp 5DB332D7))
+  (gr_line (start 235.379628 36.044693) (end 20.829003 36.044692) (layer Cmts.User) (width 0.1) (tstamp 5DB332CE))
+  (gr_line (start 35.592753 164.155941) (end 35.592754 17.947192) (layer Cmts.User) (width 0.1) (tstamp 5DB332BF))
+  (gr_line (start 212.281504 162.965318) (end 212.281504 16.756567) (layer Cmts.User) (width 0.1))
 
 )

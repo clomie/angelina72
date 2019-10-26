@@ -1,0 +1,14 @@
+(module Credit (layer F.Cu) (tedit 5DB453D1)
+  (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Credit (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user "Angelina72 v2.0 PCB Designed by clomie" (at 0 0) (layer B.Mask)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
+  (fp_text user "Angelina72 v2.0 PCB Designed by clomie" (at 0 0) (layer F.Mask)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+)
