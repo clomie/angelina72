@@ -1,8 +1,8 @@
-(module StripLED_3 (layer F.Cu) (tedit 5DAC68D1)
-  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+(module StripLED_3 (layer F.Cu) (tedit 5DB3CE9E)
+  (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value StripLED_3 (at 0 -0.5) (layer F.Fab)
+  (fp_text value StripLED_3 (at 0 -0.5) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -25 -5) (end 25 -5) (layer Dwgs.User) (width 0.12))
