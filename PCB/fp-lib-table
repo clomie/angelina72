@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name angelina72)(type KiCad)(uri ${KIPRJMOD}/angelina72.pretty)(options "")(descr ""))
+  (lib (name foostan_kbd)(type KiCad)(uri /Users/clomie/.ghq/github.com/foostan/kbd/kbd.pretty)(options "")(descr ""))
+)
