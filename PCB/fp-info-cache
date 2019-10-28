@@ -1,4 +1,4 @@
-16063457721454815
+16065053440236815
 angelina72
 CherryMX_Hotswap_1.25u
 
@@ -21,19 +21,40 @@ Credit
 0
 0
 angelina72
+Credit_Cu
+
+
+0
+0
+0
+angelina72
+Crystal
+
+
+0
+0
+0
+angelina72
+Crystal2
+
+
+0
+0
+0
+angelina72
+Crystal3
+
+
+0
+0
+0
+angelina72
 D3_SMD
 
 
 0
 2
 2
-angelina72
-Hole_MXCherry
-
-
-0
-0
-0
 angelina72
 Hole_MXCherry_1.25u_mod
 
@@ -49,28 +70,7 @@ Hole_MXCherry_mod
 0
 0
 angelina72
-Hole_MX_Plate_Both
-
-
-0
-0
-0
-angelina72
-Hole_MX_Plate_Right
-
-
-0
-0
-0
-angelina72
 Layout
-
-
-0
-0
-0
-angelina72
-Layout_edge
 
 
 0
@@ -126,14 +126,21 @@ MouseBite
 0
 0
 angelina72
-ProMicro
+Outline_MXCherry_1.25u
 
 
 0
-48
-24
+0
+0
 angelina72
-ProMicro_r
+Outline_MXCherry_1u
+
+
+0
+0
+0
+angelina72
+ProMicro
 
 
 0

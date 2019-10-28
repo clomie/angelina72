@@ -1,5 +1,5 @@
-(module Credit (layer F.Cu) (tedit 5DB453D1)
-  (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
+(module Credit (layer F.Cu) (tedit 5DB56024)
+  (fp_text reference Credit** (at 0 0.5) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value Credit (at 0 -0.5) (layer F.Fab) hide
