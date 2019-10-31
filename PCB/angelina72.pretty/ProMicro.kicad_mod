@@ -1,4 +1,4 @@
-(module ProMicro (layer F.Cu) (tedit 5DB04666)
+(module ProMicro (layer F.Cu) (tedit 5DB8313C)
   (fp_text reference U1 (at -1.27 2.762 270) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -179,6 +179,12 @@
   (fp_line (start -7.62 -14.478) (end -7.62 16.002) (layer B.SilkS) (width 0.15))
   (fp_line (start -7.62 16.002) (end -10.16 16.002) (layer B.SilkS) (width 0.15))
   (fp_line (start -10.16 16.002) (end -10.16 -14.478) (layer B.SilkS) (width 0.15))
+  (fp_line (start -3.75 -19.6) (end -3.75 -18.299039) (layer F.Fab) (width 0.15))
+  (fp_line (start 3.75 -19.6) (end 3.75 -18.3) (layer F.Fab) (width 0.15))
+  (fp_line (start -3.75 -19.6) (end 3.75 -19.6) (layer F.Fab) (width 0.15))
+  (fp_line (start -5.02 -18.32) (end 2.48 -18.32) (layer F.Fab) (width 0.15))
+  (fp_line (start 2.48 -18.32) (end 2.48 -17.02) (layer F.Fab) (width 0.15))
+  (fp_line (start -5.02 -18.320961) (end -5.02 -17.02) (layer F.Fab) (width 0.15))
   (pad 24 thru_hole circle (at -7.5636 -14.478) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
   (pad 23 thru_hole circle (at -7.5636 -11.938) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
   (pad 22 thru_hole circle (at -7.5636 -9.398) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))

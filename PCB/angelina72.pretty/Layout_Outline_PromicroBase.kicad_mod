@@ -1,0 +1,18 @@
+(module Layout_Outline_PromicroBase (layer F.Cu) (tedit 5DB98235)
+  (fp_text reference REF** (at 0 0.714375) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Layout_Outline_PromicroBase (at 0 -0.714375) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 97.163977 1.654987) (end 96.916876 1.512445) (layer Edge.Cuts) (width 0.05))
+  (fp_line (start 96.67875 1.099999) (end 96.67875 -66.198751) (layer Edge.Cuts) (width 0.05))
+  (fp_line (start 96.202497 -66.675001) (end 76.200029 -66.675014) (layer Edge.Cuts) (width 0.05))
+  (fp_line (start 75.723751 -75.247501) (end 75.72375 -67.151251) (layer Cmts.User) (width 0.05))
+  (fp_line (start 98.607533 2.488425) (end 96.916876 1.512445) (layer Cmts.User) (width 0.05))
+  (fp_arc (start 98.369408 2.900869) (end 98.781853 3.138994) (angle -90) (layer Cmts.User) (width 0.05))
+  (fp_arc (start 97.155 1.099998) (end 96.916876 1.512445) (angle 60) (layer Edge.Cuts) (width 0.05))
+  (fp_arc (start 96.2025 -66.19875) (end 96.67875 -66.198751) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (fp_arc (start 76.199998 -67.151253) (end 75.72375 -67.151251) (angle -90.00336866) (layer Edge.Cuts) (width 0.05))
+  (fp_arc (start 75.247501 -75.2475) (end 75.723751 -75.247501) (angle -90) (layer Cmts.User) (width 0.05))
+)

@@ -96,14 +96,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.0795336"
-     inkscape:cx="88.79855"
-     inkscape:cy="62.003846"
+     inkscape:zoom="5.2537591"
+     inkscape:cx="213.70308"
+     inkscape:cy="72.543835"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:measure-start="52.829,41.2343"
-     inkscape:measure-end="56.6085,41.2343"
+     inkscape:measure-start="37.8992,92.6784"
+     inkscape:measure-end="37.8992,88.143"
      inkscape:window-width="1440"
      inkscape:window-height="855"
      inkscape:window-x="0"
@@ -143,20 +143,6 @@
      id="layer1"
      transform="translate(6.5804232,15.24515)"
      style="display:inline">
-    <rect
-       y="9.5529184"
-       x="3.4470835"
-       height="2.0000019"
-       width="3.9999995"
-       id="rect835"
-       style="fill:#f5feff;fill-opacity:0.31372549;stroke:#000000;stroke-width:0.04233333;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <rect
-       style="fill:#f5feff;fill-opacity:0.31372549;stroke:#000000;stroke-width:0.04233333;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect837"
-       width="9.999999"
-       height="3.0000031"
-       x="3.4470835"
-       y="6.5529189" />
     <g
        id="g3622"
        transform="matrix(0.05866593,0,0,0.05866593,11.218534,-13.486543)"
@@ -239,22 +225,22 @@
          y2="415.78799"
          id="line2974" />
       <polygon
-         points="67.046,399.386 68.264,407.907 65.829,407.907 "
+         points="68.264,407.907 65.829,407.907 67.046,399.386 "
          id="polygon2976"
          style="stroke-width:0.7216;stroke-miterlimit:4;stroke-dasharray:none" />
       <polygon
          style="fill:none;stroke:#000000;stroke-width:0.7216;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
          stroke-miterlimit="2"
-         points="67.046,399.386 68.264,407.907 65.829,407.907 "
+         points="68.264,407.907 65.829,407.907 67.046,399.386 "
          id="polygon2978" />
       <polygon
-         points="67.046,454.434 65.829,445.912 68.264,445.912 "
+         points="65.829,445.912 68.264,445.912 67.046,454.434 "
          id="polygon2980"
          style="stroke-width:0.7216;stroke-miterlimit:4;stroke-dasharray:none" />
       <polygon
          style="fill:none;stroke:#000000;stroke-width:0.7216;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
          stroke-miterlimit="2"
-         points="67.046,454.434 65.829,445.912 68.264,445.912 "
+         points="65.829,445.912 68.264,445.912 67.046,454.434 "
          id="polygon2982" />
       <polyline
          style="fill:none;stroke:#000000;stroke-width:0.7216;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
@@ -297,22 +283,22 @@
          points="    72.159,345.045 72.585,344.335 73.437,343.625 74.289,343.625 75.142,344.335 75.568,345.045 75.568,346.465 75.142,347.175     74.289,347.885 73.437,348.596 72.585,350.016 72.159,352.146 75.568,352.146   "
          id="polyline2998" />
       <polygon
-         points="67.046,314.172 68.264,322.693 65.829,322.693 "
+         points="68.264,322.693 65.829,322.693 67.046,314.172 "
          id="polygon3000"
          style="stroke-width:0.7216;stroke-miterlimit:4;stroke-dasharray:none" />
       <polygon
          style="fill:none;stroke:#000000;stroke-width:0.7216;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
          stroke-miterlimit="2"
-         points="67.046,314.172 68.264,322.693 65.829,322.693 "
+         points="68.264,322.693 65.829,322.693 67.046,314.172 "
          id="polygon3002" />
       <polygon
-         points="67.046,399.386 65.829,390.864 68.264,390.864 "
+         points="65.829,390.864 68.264,390.864 67.046,399.386 "
          id="polygon3004"
          style="stroke-width:0.7216;stroke-miterlimit:4;stroke-dasharray:none" />
       <polygon
          style="fill:none;stroke:#000000;stroke-width:0.7216;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
          stroke-miterlimit="2"
-         points="67.046,399.386 65.829,390.864 68.264,390.864 "
+         points="65.829,390.864 68.264,390.864 67.046,399.386 "
          id="polygon3006" />
       <polyline
          style="fill:none;stroke:#000000;stroke-width:0.7216;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
@@ -371,22 +357,22 @@
          points="    390.64,302.213 391.066,300.793 392.345,300.083 393.623,300.793 394.049,302.213 393.623,303.633 393.197,304.343     392.345,305.054 391.492,304.343 391.066,303.633 390.64,302.213 390.64,299.373 391.066,297.952 391.492,297.242     392.345,296.532 393.197,297.242 393.623,297.952   "
          id="polyline3026" />
       <polygon
-         points="382.119,202.2 383.336,210.722 380.902,210.722 "
+         points="383.336,210.722 380.902,210.722 382.119,202.2 "
          id="polygon3028"
          style="stroke-width:0.7216;stroke-miterlimit:4;stroke-dasharray:none" />
       <polygon
          style="fill:none;stroke:#000000;stroke-width:0.7216;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
          stroke-miterlimit="2"
-         points="382.119,202.2 383.336,210.722 380.902,210.722 "
+         points="383.336,210.722 380.902,210.722 382.119,202.2 "
          id="polygon3030" />
       <polygon
-         points="382.119,399.386 380.902,390.864 383.336,390.864 "
+         points="380.902,390.864 383.336,390.864 382.119,399.386 "
          id="polygon3032"
          style="stroke-width:0.7216;stroke-miterlimit:4;stroke-dasharray:none" />
       <polygon
          style="fill:none;stroke:#000000;stroke-width:0.7216;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
          stroke-miterlimit="2"
-         points="382.119,399.386 380.902,390.864 383.336,390.864 "
+         points="380.902,390.864 383.336,390.864 382.119,399.386 "
          id="polygon3034" />
       <polyline
          style="fill:none;stroke:#000000;stroke-width:0.7216;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
@@ -445,22 +431,22 @@
          points="    78.55,166.891 78.55,158.369 75.568,164.76 79.402,164.76   "
          id="polyline3054" />
       <polygon
-         points="67.046,202.2 65.829,193.679 68.264,193.679 "
+         points="65.829,193.679 68.264,193.679 67.046,202.2 "
          id="polygon3056"
          style="stroke-width:0.7216;stroke-miterlimit:4;stroke-dasharray:none" />
       <polygon
          style="fill:none;stroke:#000000;stroke-width:0.7216;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
          stroke-miterlimit="2"
-         points="67.046,202.2 65.829,193.679 68.264,193.679 "
+         points="65.829,193.679 68.264,193.679 67.046,202.2 "
          id="polygon3058" />
       <polygon
-         points="67.046,140.846 68.264,149.368 65.829,149.368 "
+         points="68.264,149.368 65.829,149.368 67.046,140.846 "
          id="polygon3060"
          style="stroke-width:0.7216;stroke-miterlimit:4;stroke-dasharray:none" />
       <polygon
          style="fill:none;stroke:#000000;stroke-width:0.7216;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
          stroke-miterlimit="2"
-         points="67.046,140.846 68.264,149.368 65.829,149.368 "
+         points="68.264,149.368 65.829,149.368 67.046,140.846 "
          id="polygon3062" />
       <line
          style="fill:none;stroke:#000000;stroke-width:0.7216;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
@@ -2549,51 +2535,37 @@
     </g>
     <rect
        style="fill:#f5feff;fill-opacity:0.31372549;stroke:#000000;stroke-width:0.04233333;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect7084"
-       width="3.9999995"
-       height="2.0000024"
-       x="3.4470835"
-       y="4.5529189" />
-    <rect
-       style="fill:#f5feff;fill-opacity:0.31372549;stroke:#000000;stroke-width:0.04233333;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect7086"
-       width="6.0063386"
+       width="4.0063391"
        height="2.0000019"
-       x="3.4407434"
+       x="9.4407425"
        y="11.552918" />
     <rect
        y="13.552918"
-       x="3.4407434"
+       x="9.4470825"
        height="2.0000019"
-       width="58.00634"
+       width="55.999996"
        id="rect7088"
        style="fill:#f5feff;fill-opacity:0.31372549;stroke:#000000;stroke-width:0.04233333;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <rect
        y="4.9529204"
-       x="7.4407439"
+       x="13.447083"
        height="1.6000025"
-       width="39.00634"
+       width="33"
        id="rect831"
        style="fill:#ecff90;fill-opacity:0.31372549;stroke:#000000;stroke-width:0.04233333;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:0.84666663px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.04233333;stroke-miterlimit:4;stroke-dasharray:none"
        x="-6.3705583"
-       y="8.150465"
+       y="14.149345"
        id="text7092"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan7090"
          x="-6.3705583"
-         y="8.150465"
+         y="14.149345"
          style="stroke-width:0.04233333;stroke-miterlimit:4;stroke-dasharray:none">1.6</tspan></text>
-    <rect
-       style="fill:#f5feff;fill-opacity:0.31372549;stroke:#000000;stroke-width:0.04233333;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect7098"
-       width="5.6999989"
-       height="3.0000029"
-       x="3.447083"
-       y="1.5529186" />
     <g
        id="g7128"
        transform="translate(2.9936605,0.0994044)">
@@ -2625,7 +2597,7 @@
        y="11.552922" />
     <g
        id="g7208"
-       transform="translate(-5)">
+       transform="translate(-17.170834)">
       <rect
          style="fill:#000000;fill-opacity:0.31372549;stroke:#000000;stroke-width:0.04233333;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect7132"
@@ -2664,18 +2636,18 @@
     </g>
     <g
        id="g7218"
-       transform="matrix(1.2856716,0,0,1,-9.8477889,2.1872054e-6)"
-       style="stroke-width:0.88193172">
+       transform="matrix(1.1426851,0,0,1,-1.9186992,2.1872054e-6)"
+       style="stroke-width:0.93548477">
       <rect
          y="9.9529181"
          x="13.447083"
          height="1.6000021"
          width="42.006325"
          id="rect833"
-         style="fill:#ecff90;fill-opacity:0.31372549;stroke:#000000;stroke-width:0.03733511;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="fill:#ecff90;fill-opacity:0.31372549;stroke:#000000;stroke-width:0.03960219;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:0.84666663px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.03733511;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-style:normal;font-weight:normal;font-size:0.84666663px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.03960219;stroke-miterlimit:4;stroke-dasharray:none"
          x="-11.370556"
          y="14.165072"
          id="text7150"
@@ -2684,7 +2656,7 @@
            id="tspan7148"
            x="-11.370556"
            y="14.165072"
-           style="stroke-width:0.03733511;stroke-miterlimit:4;stroke-dasharray:none">1.6</tspan></text>
+           style="stroke-width:0.03960219;stroke-miterlimit:4;stroke-dasharray:none">1.6</tspan></text>
     </g>
     <g
        id="g7229"
@@ -2718,8 +2690,8 @@
        id="rect7231"
        width="15.099999"
        height="1.6000025"
-       x="46.447086"
-       y="2.3529184" />
+       x="46.347084"
+       y="2.3529189" />
     <text
        transform="matrix(0,-0.96245926,1.039005,0,0,0)"
        id="text7235"
@@ -2837,13 +2809,126 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:0.87969095px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.04233333;stroke-miterlimit:4;stroke-dasharray:none"
        x="-14.099235"
-       y="11.938586"
+       y="0.22465539"
        id="text8432"
        transform="matrix(0,-0.96245927,1.039005,0,0,0)"><tspan
          sodipodi:role="line"
          x="-14.099235"
-         y="11.938586"
+         y="0.22465539"
          style="stroke-width:0.04233333;stroke-miterlimit:4;stroke-dasharray:none"
          id="tspan8430">4.0mm</tspan></text>
+    <rect
+       y="8.5529184"
+       x="9.4470825"
+       height="3.0000029"
+       width="4"
+       id="rect1239"
+       style="fill:#f5feff;fill-opacity:0.31372549;stroke:#000000;stroke-width:0.04233333;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       style="fill:#f5feff;fill-opacity:0.31372549;stroke:#000000;stroke-width:0.04233333;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1241"
+       width="4"
+       height="3.0000029"
+       x="9.4470825"
+       y="5.5529156" />
+    <rect
+       y="2.5529156"
+       x="9.4470825"
+       height="3.0000029"
+       width="4"
+       id="rect1243"
+       style="fill:#f5feff;fill-opacity:0.31372549;stroke:#000000;stroke-width:0.04233333;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       style="fill:#f5feff;fill-opacity:0.31372549;stroke:#000000;stroke-width:0.04233333;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1245"
+       width="4"
+       height="2.9999971"
+       x="9.4470825"
+       y="-0.4470785" />
+    <g
+       id="g1287"
+       transform="translate(4.7499991)">
+      <rect
+         style="fill:#000000;fill-opacity:0.31372549;stroke:#000000;stroke-width:0.04233333;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.96629214"
+         id="rect1269"
+         width="4.5"
+         height="1.6"
+         x="4.447083"
+         y="-2.0470786" />
+      <rect
+         y="15.552921"
+         x="4.947083"
+         height="1.3"
+         width="3.5"
+         id="rect1271"
+         style="fill:#000000;fill-opacity:0.31372549;stroke:#000000;stroke-width:0.04233333;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.96629214" />
+      <rect
+         y="-2.4470785"
+         x="5.6970835"
+         height="18"
+         width="1.999999"
+         id="rect1275"
+         style="fill:#000000;fill-opacity:0.31372549;stroke:#000000;stroke-width:0.04233332;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.96629214" />
+    </g>
+    <rect
+       y="-0.44708043"
+       x="31.447084"
+       height="2.0000019"
+       width="34.00634"
+       id="rect1244"
+       style="fill:#f5feff;fill-opacity:0.31372549;stroke:#000000;stroke-width:0.04233333;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       style="fill:#f5feff;fill-opacity:0.31372549;stroke:#000000;stroke-width:0.04233334;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1246"
+       width="13.000001"
+       height="3.0000029"
+       x="52.447086"
+       y="7.5529246" />
+    <rect
+       y="4.5529213"
+       x="52.447086"
+       height="3.0000029"
+       width="13.000001"
+       id="rect1248"
+       style="fill:#f5feff;fill-opacity:0.31372549;stroke:#000000;stroke-width:0.04233334;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       style="fill:#f5feff;fill-opacity:0.31372549;stroke:#000000;stroke-width:0.04233332;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1250"
+       width="33.999992"
+       height="3.0000029"
+       x="31.447081"
+       y="1.5529214" />
+    <rect
+       y="10.552924"
+       x="31.347084"
+       height="2.9999971"
+       width="34.099995"
+       id="rect1252"
+       style="fill:#f5feff;fill-opacity:0.31372549;stroke:#000000;stroke-width:0.04233332;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <g
+       transform="translate(56.75634)"
+       id="g1260">
+      <rect
+         y="-2.0470786"
+         x="4.447083"
+         height="1.6"
+         width="4.5"
+         id="rect1254"
+         style="fill:#000000;fill-opacity:0.31372549;stroke:#000000;stroke-width:0.04233333;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.96629214" />
+      <rect
+         style="fill:#000000;fill-opacity:0.31372549;stroke:#000000;stroke-width:0.04233333;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.96629214"
+         id="rect1256"
+         width="3.5"
+         height="1.3"
+         x="4.947083"
+         y="15.552921" />
+      <rect
+         style="fill:#000000;fill-opacity:0.31372549;stroke:#000000;stroke-width:0.04233332;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.96629214"
+         id="rect1258"
+         width="1.999999"
+         height="18"
+         x="5.6970835"
+         y="-2.4470785" />
+    </g>
   </g>
 </svg>

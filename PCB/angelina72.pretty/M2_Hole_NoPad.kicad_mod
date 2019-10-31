@@ -1,4 +1,4 @@
-(module M2_Hole_NoPad (layer F.Cu) (tedit 5DB3F0EF)
+(module M2_Hole_NoPad (layer F.Cu) (tedit 5DB97DCE)
   (descr "Mounting Hole 2.2mm, no annular, M2")
   (tags "mounting hole 2.2mm no annular m2")
   (attr virtual)
