@@ -1,0 +1,6 @@
+gerber
+output
+*.zip
+*.kicad_pcb-bak
+*.bak
+
