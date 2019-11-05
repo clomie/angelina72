@@ -13,3 +13,4 @@
 
 ![pcb_front](/_image/pcb_front.png)
 ![pcb_back](/_image/pcb_back.png)
+![wiring](/_image/wiring.svg)
