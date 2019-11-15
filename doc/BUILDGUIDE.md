@@ -39,29 +39,29 @@
 PCB、トッププレート、およびボトムプレートはリバーシブルです。
 どちらを左手・右手にするのかを最初に決めます。
 
-![01](/image/buildguide_01.png)
+![01](/_image/buildguide_01.jpg)
 
 ### 左手外側4キーの分離
 
 左手側のPCBから外側の4キー分を切り離します。
 
-![02](/image/buildguide_02.png)
+![02](/_image/buildguide_02.jpg)
 
 ニッパーなどで切れ込みを入れてから力を加えると切り離せます。
 
-![03](/image/buildguide_03.png)
+![03](/_image/buildguide_03.jpg)
 
 断面はヤスリなどで適宜削ってください。
 
-![04](/image/buildguide_04.png)
+![04](/_image/buildguide_04.jpg)
 
 ### ProMicro保護プレートの分離
 
 両手のトッププレートからProMicro保護プレートを切り離します。
 
-![05](/image/buildguide_05.png)
+![05](/_image/buildguide_05.jpg)
 
-![06](/image/buildguide_06.png)
+![06](/_image/buildguide_06.jpg)
 
 ### MX用ソケットとダイオードのはんだ付け
 
@@ -71,19 +71,21 @@ MXソケットは裏面に取り付けます。
 
 MXソケットの両方のパッドとダイオードの片方のパッドに予備ハンダを盛ります。
 
-![07](/image/buildguide_07.png)
+![07](/_image/buildguide_07.jpg)
 
 部品を配置し、浮かないようにピンセット等で押さえつけながら、端子を通して上から熱を伝えながらハンダを溶かすようにはんだ付けしていきます。
 
 ダイオードの向きは左右ともに同じ向きです。ダイオードの "|||" の印がある側がシルクの "▷|" の向きに合うように実装してください。
 
-![08](/image/buildguide_08.png)
+![08](/_image/buildguide_08.jpg)
 
 ### TRRSジャックとリセットスイッチのはんだ付け
 
 TRRSジャック、リセットスイッチは表面にパーツを取り付け、裏面からはんだ付けします。
 
-![09](/image/buildguide_09.png)
+![09](/_image/buildguide_09.jpg)
+
+![10](/_image/buildguide_10.jpg)
 
 ### ProMicroのはんだ付け
 
@@ -92,40 +94,65 @@ TRRSジャック、リセットスイッチは表面にパーツを取り付け�
 
 ProMicroは表面のシルク枠に合わせて差し込みます。
 
-![10](/image/buildguide_10.png)
+![11](/_image/buildguide_11.jpg)
 
-### ケースの組み立て
+ここまでではんだ付けは完了です。
+
+![12](/_image/buildguide_12.jpg)
+
+![13](/_image/buildguide_13.jpg)
+
+## ケースの組み立て
 
 トッププレートの四隅の穴にキースイッチをはめ込み、ピンの曲がりに注意しながらPCBのソケットに差し込みます。
 
-![11](/image/buildguide_11.png)
+![14](/_image/buildguide_14.jpg)
 
 ProMicroカバーの下に当たる部分に6mmのスペーサー、それ以外のキースイッチ部分に7mmのスペーサーを取り付けます。
 ボトムプレート、ProMicroのカバーを取り付けたら、残りのキースイッチを差し込みます。
 
-![12](/image/buildguide_12.png)
-![13](/image/buildguide_13.png)
+![15](/_image/buildguide_15.jpg)
+![16](/_image/buildguide_16.jpg)
 
 裏面4箇所にクッションゴムを取り付ければ完成です。
 
 ## ファームウェアの書き込み
 
+### ビルド済みのファームウェアを書き込む場合
+
+デフォルトキーマップのビルド済みファームウェアをダウンロードします。
+
+https://raw.githubusercontent.com/clomie/angelina72/rev2/firmware/angelina72_rev2_default.hex
+
+hexファイルはQMK Toolboxを利用して書き込みます。詳しくは以下の記事を参照してください。
+
+https://salicylic-acid3.hatenablog.com/entry/qmk-toolbox
+
+### キーマップをビルドする場合
+
 Angelina72のファームウェアはQMKの公式リポジトリにマージされていません。
-下記コマンドでforkリポジトリの`angelina72` ブランチをcloneします。
+fork済みのリポジトリから`angelina72`ブランチをcloneしてビルドする必要があります。
 
 ```
 git clone -b angelina72 https://github.com/clomie/qmk_firmware
 ```
 
-Angelina72のデフォルトキーマップを書き込むには、cloneしたフォルダで下記コマンドを実行します。
+Angelina72のデフォルトキーマップを書き込むには、cloneしたフォルダで以下のコマンドを実行します。
 
 ```
-make angelina72:default:avrdude
+make angelina72/rev2:default:avrdude
 ```
 
 `Detecting USB port, reset your controller now......` と表示されたら、キーボードのリセットボタンを押すと書き込みが始まります。
-初回は両方のProMicroに繋いでそれぞれに書き込む必要があります。それ以降は、TRRSケーブルで左右を接続しながら書き込めば片方のみで構いません。
 
-# デフォルトキーマップ
+### デフォルトキーマップ
 
-![keymap](/image/keymap.png)
+デフォルトのキーマップは画像の通りです。
+青字はLOWERキー、赤字はRAISEキーと同時押しの場合に有効です。
+
+![keymap](/_image/keymap.png)
+
+LOWER、RAISEの同時押しでADJUSTレイヤーになります。
+`Mac Mode`と`Win Mode`はDEFAULTレイヤーの最下行のキーで、それぞれのOSに合わせた設定に変更できます。
+
+![keymap_adjust](/_image/keymap_adjust.png)
