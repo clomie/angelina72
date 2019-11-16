@@ -2,9 +2,13 @@
 
 72/68/64 keys irregular row staggered split keyboard.
 
-![angelina72](/_image/top.jpg)
+## Layout and Default Keymap
 
-## Layout
+![keymap](/_image/keymap.png)
 
-![layout](/_image/layout.png)
+# Photos
 
+![image_01](/_image/image_01.jpg)
+![image_02](/_image/image_02.jpg)
+![image_03](/_image/image_03.jpg)
+![image_04](/_image/image_04.jpg)
