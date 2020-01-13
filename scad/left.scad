@@ -1,5 +1,4 @@
-$fn=120;
-
+$fn = 120;
 $axis = [113.221504,112.959071];
 
 function fix_vertices(vertices) =
@@ -79,7 +78,6 @@ module bolt_tab_shape(offset) {
     }
 }
 
-
 function bolt_positions() = 
     fix_vertices([
         [179.658379, 30.41],
@@ -102,7 +100,7 @@ function bolt_params() =
         ]
     ];
 
-module bolt_tabs(offset_width, level) {
+module bolt_tabs(level) {
     let(o = calc_offset(level) - calc_offset(3))
     for(p = bolt_params()) {
         let(
@@ -150,7 +148,6 @@ module usb_notch() {
         [206.804629, 16.045947],
     ]));
 }
-
 
 module pre_usb_padding() {
     polygon(fix_vertices([
@@ -214,9 +211,6 @@ module layer(level) {
                  ", round_convex = ", round_convex,
                  ", round_concave = ", round_concave
         ));
-        if (level >= 3) {
-            bolt_tabs(bezel_width, level);
-        }
         round(round_convex)
         round(-round_concave)
         difference() {
@@ -260,8 +254,15 @@ module with_screw(r) {
     }
 }
 
+module with_bolt_tab(level) {
+    union() {
+        children();
+        bolt_tabs(level);
+    }
+}
+
 $layer_thickness = [2, 2, 2, 2, 3, 2, 2, 2];
-$z_span = 10;
+$z_span = 0;
 function calc_z_pos(index) =
     let(i = index - 1)
     index == 0 ? 0 : $layer_thickness[i] + $z_span + calc_z_pos(i);
@@ -272,16 +273,14 @@ module plate(index) {
     children();
 }
 
-color("Teal", 0.75)
+//color("Teal", 0.75)
 rotate([0, 0, -10]) {
     plate(0) with_screw(1)   bottom(0);
     plate(1) with_screw(1)   top(1);
     plate(2) with_screw(1)   middle(2);
-    plate(3) with_screw(1.5) middle(3);
-
-    plate(4) with_screw(1.5) middle(4);
-
-    plate(5) with_screw(1.5) middle(3);
+    plate(3) with_screw(1.5) with_bolt_tab(3) middle(3);
+    plate(4) with_screw(1.5) with_bolt_tab(4) middle(4);
+    plate(5) with_screw(1.5) with_bolt_tab(3) middle(3);
     plate(6) with_screw(1)   top(2);
     plate(7) with_screw(1)   top(1);
 }
